@@ -24,7 +24,8 @@ tooltip {
 #memory,
 #battery,
 #network,
-#pulseaudio {
+#pulseaudio,
+#bluetooth{
     margin: 6px 6px 6px 0px;
     padding: 2px 8px;
 }
@@ -68,10 +69,16 @@ tooltip {
 #cpu,
 #memory,
 #network,
-#pulseaudio {
+#pulseaudio,
+#bluetooth{
     background-color: #c9af82;
     border: 2px solid #917a53;
     color: #1d2021;
+}
+
+#bluetooth.off {
+    background-color: #a9b665;
+    color: #6c782e;
 }
 
 #cpu.critical,
@@ -87,4 +94,8 @@ tooltip {
     background-color: #c9af82;
     border: 2px solid #917a53;
     color: #ae6330;
+}
+
+.modules-right {
+  padding-right: 10;
 }
